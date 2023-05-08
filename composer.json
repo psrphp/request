@@ -1,0 +1,14 @@
+{
+    "name": "psrphp/request",
+    "description": "php request",
+    "type": "library",
+    "license": "GPL-3.0",
+    "autoload": {
+        "psr-4": {
+            "PsrPHP\\Request\\": "src/"
+        }
+    },
+    "require": {
+        "psr/http-message": "^2.0"
+    }
+}
