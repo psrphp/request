@@ -17,13 +17,6 @@ class Request
         $this->server_request = $server_request;
     }
 
-    public function setServerRequest(
-        ServerRequestInterface $server_request
-    ): self {
-        $this->server_request = $server_request;
-        return $this;
-    }
-
     public function has(string $field): bool
     {
         $fields = $this->fieldFilter($field);
